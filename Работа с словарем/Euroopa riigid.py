@@ -8,7 +8,7 @@ o=gTTS(text=countries_dict["Albaania"],lang="et",slow=True).save("heli.mp3")
 os.system("heli.mp3")
 while True:
     print("Tere,vaatame millised on riigid ja nende pealinnad")
-    print("1 - Uurige välja riigi pealinn või vastupidi,2 -uus pealinn ja riik,3- kustutamine,4-Vaatame teie teaded")
+    print("1 - Uurige välja riigi pealinn või vastupidi,2 -uus pealinn ja riik,3- kustutamine")
     s=input()
     if s=="1":
         v=input("Kas otsime riiki pealinna (1) või pealinna järgi (2)? ")
@@ -17,5 +17,3 @@ while True:
         otsing(countries_dict)
     elif s=="3":
         kustutamine(countries_dict)
-    elif s=="4":
-        uuring(countries_dict)
