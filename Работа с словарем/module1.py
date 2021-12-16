@@ -26,6 +26,9 @@ def kustutamine(countries_dict):
     b=input("Kirjutage Riiki mille tahate kustutada->")
     countries_dict.pop(b)
     print("Kustutatud Riik-",b,)
+def teadmet(countrie_dict):
+    a=["Albaania","Andorra","Armeenia","Aserbaidžaan","Austria","Belgia","Bulgaaria","Eesti","Gruusia"]
+    b=["Tirana","Andorra la Vella","Jerevan","Bakuu","Viin","Brüssel","Sofia","Tallinn","Thbilisi"]
 
 
 
